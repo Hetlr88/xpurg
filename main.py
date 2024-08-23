@@ -13,7 +13,7 @@ def getenv(var): return os.environ.get(var) or DATA.get(var, None)
 
 bot_token = getenv("TOKEN","7352645964:AAHjLhEQ17cBn2xnFWLazCwA_eOeP-JRWcE") 
 api_hash = getenv("HASH","5a2784e571fe5043852d32396a34a13b") 
-api_id = getenv("ID,"29452145")
+api_id = getenv("ID,29452145)
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 ss = getenv("STRING")
